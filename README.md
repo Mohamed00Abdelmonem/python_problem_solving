@@ -6,9 +6,7 @@ Welcome to my Python problem-solving repository! As a junior Python developer fo
 
 - [About](#about)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## About
 

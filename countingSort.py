@@ -62,3 +62,12 @@
 # s = 4
 # s = str(s)
 # print(type(s))
+
+
+# import os
+
+# file_path = "C:\Users\DELL\OneDrive\Pictures\wallpaper"
+# for i in file_path:
+#     if i == "copy":
+
+#         os.remove(i)

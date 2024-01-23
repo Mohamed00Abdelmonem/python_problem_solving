@@ -16,3 +16,8 @@ def min_max_sum(*args):
 
 
 min_max_sum(3,5,2,1,6)    
+
+
+
+# test_list = list(range(1,101))
+# print(test_list)

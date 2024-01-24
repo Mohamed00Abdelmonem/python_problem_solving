@@ -5,6 +5,11 @@ def get_image_files(folder_path):
     image_extensions = ['png', 'jpg', 'jpeg', 'webp']  # Add more extensions if needed
     image_files = []
 
+    # Check if the folder path exists
+    if not os.path.exists(folder_path):
+        print(f"Folder path '{folder_path}' does not exist.")
+        return image_files
+
     # Use glob to find files matching the specified extensions
     for extension in image_extensions:
         pattern = os.path.join(folder_path, f'*.{extension}')
@@ -13,7 +18,7 @@ def get_image_files(folder_path):
     return image_files
 
 def main():
-    folder_path = 'D:\course django 2023\Course\Django\Amazon Clone\AmazonClone\src\media_root\product_images'  # Replace with your folder path
+    folder_path = r'D:\course django 2023\Course\Django\Amazon Clone\AmazonClone\src\media_root\users'
     image_files = get_image_files(folder_path)
 
     # Append file names with extensions to a list

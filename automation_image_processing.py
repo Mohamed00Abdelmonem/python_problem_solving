@@ -18,7 +18,7 @@ def get_image_files(folder_path):
     return image_files
 
 def main():
-    folder_path = r'D:\course django 2023\Course\Django\Amazon Clone\AmazonClone\src\media_root\users'
+    folder_path = r'D:\test'
     image_files = get_image_files(folder_path)
 
     # Append file names with extensions to a list

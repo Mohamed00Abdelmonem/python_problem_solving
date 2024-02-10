@@ -18,7 +18,7 @@ def get_image_files(folder_path):
     return image_files
 
 def main():
-    folder_path = r'D:\test'
+    folder_path = r'D:\New Products'
     image_files = get_image_files(folder_path)
 
     # Append file names with extensions to a list
